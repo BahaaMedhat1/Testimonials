@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
+
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 7rem;
+}
+
+#testimonials h2 {
+    font-size: 36px;
+}
+
+.border {
+    height: 3px;
+    width: 120px;
+    background-color: red;
+    margin: 15px 0px 30px
+}
+
+#testimonials .row{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#testimonials .row .col{
+    background-color: #fff;
+    margin: 0 1rem;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+
+#testimonials .row .col img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+
+#testimonials .row .col h3{
+    font-size: 20px;
+}
+
+#testimonials .row .col .star{
+    margin: 15px 0px;
+    color: green;
+}
+
+#testimonials .row .col p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.3;
+}
